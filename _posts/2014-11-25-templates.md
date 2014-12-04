@@ -49,7 +49,7 @@ There are to types of them:
 - The **block helpers** wich are more like open / closing html tags: `{{#criteria}}<p>Other content</p>{{/criteria}}`.
 
 Helper lists (certainly non exhaustive):
-
+<br />
 | viewHelper       | What does it do?                                                                                                     | default                                         | options                                                                                                                                                                                                                        |
 |------------------|----------------------------------------------------------------------------------------------------------------------|-------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | input_for        | Render an input in a form, with label and formating. The first argument is mandatory and contains the property name. | `input_for "firstName"`                         | **isNoLabel**, in order to display or not the label.<br />**noHtml** in order to generate only the input and no div wrapper around it. `input_for "firstName" isNoLabel=true`                                                  |
@@ -60,9 +60,11 @@ Helper lists (certainly non exhaustive):
 | page             | Gerentate a page block                                                                                               | `{{#page}}{{input_for "nom"}}{{/page}}`         |                                                                                                                                                                                                                                |
 | form             | generate a form                                                                                                      | `{{#form}}{{/form}}`                            |                                                                                                                                                                                                                                |
 | display          | generate a display block equivalent to the form but for display mode.                                                | `{{#display}}{{/display}}`                      |                                                                                                                                                                                                                                |
+</br/>
+                                                                                                                              |
 
 
-Example: 
+## Example: 
 {% highlight html %}
 {% raw %}
 {{#page "user.detail.title"}}
