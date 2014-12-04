@@ -51,3 +51,10 @@ There are to types of them:
 Helper lists (certainly non exhaustive):
 
 
+| viewHelper  | What does it do?                                                                                                     | default               | options                                                                                                                                                                  |
+|-------------|----------------------------------------------------------------------------------------------------------------------|-----------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| input_for   | Render an input in a form, with label and formating. The first argument is mandatory and contains the property name. | input_for "firstName" | **isNoLabel**, in order to display or not the label. **noHtml** in order to generate only the input and no div wrapper around it. `input_for "firstName" isNoLabel=true` |
+| display_for | Render a field in a panel, with label and formating.The first argument is mandatory and contains the property name   | display_for ""        |                                                                                                                                                                          |
+|             |                                                                                                                      |                       |                                                                                                                                                                          |
+|             |                                                                                                                      |                       |                                                                                                                                                                          |
+
